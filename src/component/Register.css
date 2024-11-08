@@ -1,0 +1,85 @@
+/* General styles */
+body {
+    background-color: #f0f2f5;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.register {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Giảm chiều rộng form */
+}
+
+h1 {
+    color: #1877f2;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3 {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Điều chỉnh ô input nhỏ lại */
+input[type="text"], 
+input[type="password"] {
+    width: 100%;
+    padding: 8px; /* Giảm padding */
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px; /* Giảm kích thước font */
+    background-color: #ebebeb;
+    font-weight: 600;
+}
+
+.gender-option {
+    margin-right: 20px;
+}
+
+.gender-option label {
+    margin-left: 5px;
+}
+
+.button-register {
+    width: 100%;
+    padding: 10px;
+    background-color: #c19977;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #1877f2;
+    text-decoration: none;
+}
+
+span {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 12px;
+}
+
+center {
+    margin-top: 10px;
+}
