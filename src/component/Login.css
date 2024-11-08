@@ -1,0 +1,97 @@
+/* General styles */
+body {
+    background-color: #f0f2f5;
+    font-family: 'Roboto', sans-serif;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+}
+
+.login-intro {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    color: #1877f2;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.login-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 320px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    background-color: #ebebeb;
+    font-weight: 600;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.login-button:hover {
+    background-color: white; /* Màu xanh đậm khi hover */
+    border: 1px solid #c19977;
+    color: #c19977;
+  }
+.forgot-password-link {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #1877f2;
+    text-decoration: none;
+}
+
+.separator {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+}
+
+.create-account-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #c19977;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.create-page {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+
+}
+.create-account-link {
+    text-decoration: none;
+    display: block;
+}
