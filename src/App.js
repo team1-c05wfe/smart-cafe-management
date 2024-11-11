@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, Routes } from "react-router-dom";
-import Header from './components/partial/Header';
+import Header from '../src/Components/partial/Header';
 import { Home } from './pages/client/Home';
 function App() {
   return (

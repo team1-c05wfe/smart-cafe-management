@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { React, useState, useEffect } from 'react';
 import banner1 from '../../assets/banner1.png'
 import banner2 from '../../assets/banner2.png'
 import banner3 from '../../assets/banner3.png'
@@ -25,11 +25,11 @@ const Banner = () => {
 
   return (
     <div className="relative w-full h-[450px] md:h-[700px]">
-      <img 
-        id="banner" 
-        src={arrayImage[index]} 
-        alt="Slider" 
-        className="w-full h-full object-fit transition-all duration-500" 
+      <img
+        id="banner"
+        src={arrayImage[index]}
+        alt="Slider"
+        className="w-full h-full object-fit transition-all duration-500"
       />
     </div>
   );

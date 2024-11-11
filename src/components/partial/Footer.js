@@ -3,7 +3,7 @@ import logo1 from '../../assets/logo1.png';
 import { FaInstagram, FaTwitter } from "react-icons/fa";
 import { FaEnvelope, FaLocationDot, FaPhone, FaTiktok, FaYoutube } from "react-icons/fa6";
 
-export function Footer() {
+ function Footer() {
   return (
     <div className="bg-[#222222] text-[#f9f9f9] pt-8">
       <div className="container mx-auto md:px-40 px-5">
@@ -105,3 +105,5 @@ export function Footer() {
     </div>
   );
 }
+
+export default Footer;

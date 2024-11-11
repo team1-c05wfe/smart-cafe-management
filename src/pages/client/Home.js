@@ -1,6 +1,7 @@
-import Header from "../../components/partial/Header";
-import Banner from "../../components/partial/Banner";
-import { Footer } from "../../components/partial/Footer";
+import Header from '../../Components/partial/Header';
+import Banner from '../../Components/partial/Banner';
+import Footer from '../../Components/partial/Footer';
+
 
 export function Home() {
   return (
